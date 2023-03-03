@@ -15,3 +15,6 @@ Below are the details extracted,
 6. Twitter ID Caption
 7. Location
 8. Account Verified or not
+
+## About Dataset/API
+Twitter public and private data API for search, Tweets, users, followers, images, media and more [Rapid API](https://rapidapi.com/Glavier/api/twitter135/)
