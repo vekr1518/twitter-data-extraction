@@ -63,7 +63,7 @@ df.write.format("jdbc")\
    .option("dbtable","Twitter_User_Detail")\
    .option("user",PSQL_USERNAME)\
    .option("password",PSQL_PASSWORD)\
-   .mode("overwrite")\
+   .mode("append")\
    .save()
 
 
