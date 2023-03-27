@@ -6,7 +6,7 @@ import os
 
 #Initiate Spark Session
 
-spark = SparkSession.builder.appName("LinkedIn")\
+spark = SparkSession.builder.appName("MyTwitterExtract")\
     .config("spark.jars", "/Users/vk/spark/postgresql-42.5.1.jar")\
     .config("spark.driver.extraClassPath", "/Users/vk/spark/postgresql-42.5.1.jar")\
     .getOrCreate()
@@ -27,7 +27,7 @@ api_host = os.environ.get('RapidAPI-Host')
 api_key = os.environ.get('RapidAPI-Key')
 
 url = "https://twitter-data1.p.rapidapi.com/UserByScreenName/"
-querystring = {"username":"ImRo45"}
+querystring = {"username":"ImRo45"} 
 headers = {
 	"X-RapidAPI-Key": api_key,
 	"X-RapidAPI-Host": api_host
